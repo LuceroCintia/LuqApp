@@ -1,0 +1,57 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taller.API", "src\Taller.API\Taller.API.csproj", "{E4C7CE0F-5FD7-4C9A-8C8D-BA2B8668CD01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taller.Application", "src\Taller.Application\Taller.Application.csproj", "{1BFD1FDA-7C6D-4F3A-95D1-B8BE1CE68F47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taller.Domain", "src\Taller.Domain\Taller.Domain.csproj", "{015BF5C5-D68D-4EF5-8048-CEEB4D819EFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taller.Infrastructure", "src\Taller.Infrastructure\Taller.Infrastructure.csproj", "{4E6F9E83-8A3D-44D2-8F9D-7A87AF044833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taller.Desktop", "src\Taller.Desktop\Taller.Desktop.csproj", "{A6B32AC6-31E8-4D6D-BE0F-71BFDA8A5E03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taller.Worker", "src\Taller.Worker\Taller.Worker.csproj", "{9F3C3A14-AEA0-43F7-A0DF-9A1E3CB9C607}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taller.Tests", "tests\Taller.Tests\Taller.Tests.csproj", "{B2E6D640-297D-4C36-B13D-A574BCE92D19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4C7CE0F-5FD7-4C9A-8C8D-BA2B8668CD01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4C7CE0F-5FD7-4C9A-8C8D-BA2B8668CD01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4C7CE0F-5FD7-4C9A-8C8D-BA2B8668CD01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4C7CE0F-5FD7-4C9A-8C8D-BA2B8668CD01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BFD1FDA-7C6D-4F3A-95D1-B8BE1CE68F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BFD1FDA-7C6D-4F3A-95D1-B8BE1CE68F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BFD1FDA-7C6D-4F3A-95D1-B8BE1CE68F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BFD1FDA-7C6D-4F3A-95D1-B8BE1CE68F47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{015BF5C5-D68D-4EF5-8048-CEEB4D819EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015BF5C5-D68D-4EF5-8048-CEEB4D819EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015BF5C5-D68D-4EF5-8048-CEEB4D819EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015BF5C5-D68D-4EF5-8048-CEEB4D819EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E6F9E83-8A3D-44D2-8F9D-7A87AF044833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E6F9E83-8A3D-44D2-8F9D-7A87AF044833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E6F9E83-8A3D-44D2-8F9D-7A87AF044833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E6F9E83-8A3D-44D2-8F9D-7A87AF044833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B32AC6-31E8-4D6D-BE0F-71BFDA8A5E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B32AC6-31E8-4D6D-BE0F-71BFDA8A5E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B32AC6-31E8-4D6D-BE0F-71BFDA8A5E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B32AC6-31E8-4D6D-BE0F-71BFDA8A5E03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F3C3A14-AEA0-43F7-A0DF-9A1E3CB9C607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F3C3A14-AEA0-43F7-A0DF-9A1E3CB9C607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F3C3A14-AEA0-43F7-A0DF-9A1E3CB9C607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F3C3A14-AEA0-43F7-A0DF-9A1E3CB9C607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2E6D640-297D-4C36-B13D-A574BCE92D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E6D640-297D-4C36-B13D-A574BCE92D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E6D640-297D-4C36-B13D-A574BCE92D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E6D640-297D-4C36-B13D-A574BCE92D19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

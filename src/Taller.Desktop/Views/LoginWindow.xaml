@@ -1,0 +1,17 @@
+<Window x:Class="Taller.Desktop.Views.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Login Taller" Height="240" Width="380" WindowStartupLocation="CenterScreen">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Usuario" />
+        <TextBox x:Name="UsernameTextBox" Grid.Row="1" Margin="0,8,0,12" />
+        <PasswordBox x:Name="PasswordTextBox" Grid.Row="2" Margin="0,8,0,12" />
+        <Button Grid.Row="3" Height="36" Content="Ingresar" Click="OnLoginClick"/>
+    </Grid>
+</Window>
