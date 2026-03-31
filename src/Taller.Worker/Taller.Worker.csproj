@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.7.1" />
+    <ProjectReference Include="../Taller.Application/Taller.Application.csproj" />
+    <ProjectReference Include="../Taller.Infrastructure/Taller.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
