@@ -59,3 +59,20 @@ Si `dotnet test` falla por SDK ausente (`dotnet: command not found`), usá el sc
 ```
 
 El script valida prerequisitos y muestra pasos de instalación/ejecución.
+
+## Entorno recomendado para correr tests (SDK incluido)
+Si tu máquina/CI no tiene `dotnet`, podés usar cualquiera de estas opciones:
+
+### Opción A: Dev Container (VS Code)
+1. Abrí el repo en VS Code.
+2. Ejecutá: **Dev Containers: Reopen in Container**.
+3. El contenedor instala .NET 8 y ejecuta `dotnet restore` automáticamente.
+4. Luego corré:
+   ```bash
+   dotnet test tests/Taller.Tests/Taller.Tests.csproj -c Debug
+   ```
+
+### Opción B: Docker Compose para tests
+```bash
+docker compose -f docker-compose.test.yml run --rm tests
+```

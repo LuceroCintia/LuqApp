@@ -1,0 +1,8 @@
+services:
+  tests:
+    image: mcr.microsoft.com/dotnet/sdk:8.0
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+    command: >
+      bash -lc "dotnet restore Taller.sln && dotnet test tests/Taller.Tests/Taller.Tests.csproj -c Debug --nologo --verbosity minimal"
